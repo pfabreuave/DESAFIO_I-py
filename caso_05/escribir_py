@@ -1,0 +1,7 @@
+import pyautogui
+
+# Escribir un mensaje en el cuadro de texto actual
+pyautogui.write("¡Hola, mundo!")
+
+# Escribir presionando Enter al final
+pyautogui.write("Este es un ejemplo", interval=0.25)
